@@ -1,4 +1,3 @@
-seattlebusheatmap
-=================
+# Seattle buses heatmap
 
-Seattle bus concentration as heatmap
+This map shows the concentration of buses in seattle. 
