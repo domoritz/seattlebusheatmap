@@ -5,7 +5,7 @@ $(function() {
 
     var map = L.map('map', {
         center: [47.6210, -122.3328],
-        zoom: 14,
+        zoom: 13,
         layers: [osm]
     });
 
