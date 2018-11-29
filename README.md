@@ -2,7 +2,7 @@
 
 This map shows the concentration of buses in Seattle.
 
-[Go to the map](http://domoritz.de/seattlebusheatmap).
+[Go to the map](https://domoritz.de/seattlebusheatmap).
 
 
 ## Screenshot
