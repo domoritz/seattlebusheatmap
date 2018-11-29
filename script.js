@@ -1,6 +1,6 @@
 $(function() {
-    var osm = L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
-        attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+    var osm = L.tileLayer('https://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; <a href="https://osm.org/copyright">OpenStreetMap</a> contributors'
     });
 
     var map = L.map('map', {
@@ -14,7 +14,7 @@ $(function() {
         opacity: 0.9
     });
 
-    $.getJSON('http://api.onebusaway.org/api/where/vehicles-for-agency/1.json?key=TEST&callback=?', function(data) {
+    $.getJSON('https://api.onebusaway.org/api/where/vehicles-for-agency/1.json?key=TEST&callback=?', function(data) {
         var buses = data.data.list;
         var heatmapData = [];
         $.each(buses, function(index, value) {
